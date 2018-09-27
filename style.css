@@ -1,0 +1,171 @@
+/*CSS syntax*/
+
+target{
+    attributes: values;
+}
+
+/*head section*/
+body, header, div, section, article, sidebar,
+nav, footer{
+    display: block;
+}
+header{
+
+}
+header img{
+    border-radius: 100%;
+    width: 50px;
+}
+#header-div{
+    display: flex;
+    margin-bottom: 5px;
+}
+#searchinput{
+    margin-left: 1000px;
+    border-radius: 40px;
+    padding: 7px;
+    border: 1px solid black;
+}
+header nav{
+    background: black;
+    padding: 5px;
+}
+header ul{
+
+}
+header ul li{
+    display: inline;
+    padding: 20px;
+    margin-right: 30px;
+}
+header ul li a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: peachpuff;
+}
+header ul li a:hover{
+    color: green;
+    font-size: 18px;
+}
+header ul li a:active{
+    color: royalblue;
+    font-size: 18px;
+}
+#main-section{
+    display: flex;
+    margin-top: 5px;
+}
+sidebar{
+    border: 5px solid black;
+    background-color: darkgray;
+
+}
+#menu{
+    list-style: none;
+    line-height: 30px;
+}
+#menu li a{
+    margin-right: 15px;
+}
+.span:before{
+    content: "(";
+}
+.span:after{
+    content: ")";
+}
+article{
+    border: 1px solid black;
+    overflow: hidden;
+    width: 1000%;
+    margin-left: 5px;
+    background-color: thistle;
+}
+#article-heading{
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px 2px black;
+    font-size: 30px;
+}
+#article-img{
+    background: url(naijaSports.jpg) 
+    center center no-repeat;
+    background-size: cover;
+    height: 240px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+#people{
+    display: flex;
+    border-right: 1px solid;
+    margin-left: 5px;
+}
+.people{
+    text-align: justify;
+    margin-left: 7px;
+}
+.people:hover{
+    box-shadow: 3px 3px 1px white,
+                -3px -3px 1px red;
+    background: skyblue;
+    border-radius: 20px;
+}
+.people h3{
+    text-decoration: underline;
+    padding: 5px;
+}
+.people p{
+    padding: 5px;
+    border-right: 1px dashed black;
+}
+#remove{
+    border-right: none;
+}
+.more{
+    color: blue;
+    text-decoration: underline;
+}
+.more:hover{
+    cursor: pointer;
+}
+#economy{
+    display: flex;
+    border-right: 1px solid;
+    margin-left: 5px;
+}
+.economy{
+    text-align: justify;
+    margin-left: 7px;
+}
+.economy h4{
+    text-decoration: underline;
+    padding: 4px;
+}
+.economy:hover{
+    box-shadow: 3px 3px 1px palegreen, 
+                -3px -3px 1px skyblue;
+    background: silver;
+    border-radius: 20px;
+}
+.economy p{
+    padding: 4px;
+    border-right: 1px dashed black;
+}
+#remove{
+    border-right: none;
+}
+.more{
+    color: blue;
+    text-decoration: underline;
+}
+.more:hover{
+    cursor: pointer;
+}
+footer{
+    background: black;
+    height: 200px;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    opacity: 0.8;
+
+}
